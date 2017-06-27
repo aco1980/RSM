@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: pruebaheruko_production
-  username: pruebaheruko
+  database: pruebaruby
+  username: postgres
   password: <%= ENV['PRUEBAHERUKO_DATABASE_PASSWORD'] %>
